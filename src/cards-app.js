@@ -61,9 +61,9 @@ class CardsApp extends LitElement {
   render() {
     return html`
       <main>
-      <meme-maker alt="Cat stalking a small toy" image-url="https://cdn2.thecatapi.com/images/9j5.jpg" top-text="I bring you" bottom-text="the death">
-      </meme-maker>
-      <clothing-card clothing="Testing t-shirt"></clothing-card>
+        <meme-maker alt="Cat stalking a small toy" image-url="https://cdn2.thecatapi.com/images/9j5.jpg" top-text="I bring you" bottom-text="the death"></meme-maker>
+        <clothing-card clothing="Testing t-shirt" information="Get these now!"></clothing-card>
+    </main>
     `;
   }
 }
